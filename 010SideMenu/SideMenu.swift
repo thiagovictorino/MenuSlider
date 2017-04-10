@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class SideMenu {
+public class SideMenu {
 
 	var menuViewController: SideMenuViewController?
 	var menuItems: [SideMenuItem]

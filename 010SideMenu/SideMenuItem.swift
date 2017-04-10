@@ -22,7 +22,7 @@ class SideMenuItem: SideMenuBoxViewProtocol {
 
 }
 
-class SideMenuItemFactory {
+public class SideMenuItemFactory {
 
 	func make(title str: String, action: @escaping (() -> Void)) -> SideMenuItem {
 		return SideMenuItemSimple(title: str, listener: action)

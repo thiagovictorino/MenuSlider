@@ -17,7 +17,7 @@ class SideMenuFooter: SideMenuBoxViewProtocol {
 
 }
 
-class SideMenuFooterFactory {
+public class SideMenuFooterFactory {
 
 	private var footerView: UIView!
 
