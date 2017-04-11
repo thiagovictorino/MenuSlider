@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
  
   # 1
   s.platform = :ios
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
   s.name = "MenuSlider"
   s.summary = "MenuSlider provides a cool and easy setup side menu."
   s.requires_arc = true
@@ -30,8 +30,6 @@ Pod::Spec.new do |s|
   
   # 7
   s.framework = "UIKit"
-  s.dependency 'Alamofire', '~> 2.0'
-  s.dependency 'MBProgressHUD', '~> 0.9.0'
  
   # 8
   s.source_files = "MenuSlider/**/*.{swift}"
