@@ -30,8 +30,6 @@ Pod::Spec.new do |s|
   
   # 7
   s.framework = "UIKit"
-  s.dependency 'Alamofire', '~> 4.4'
-  s.dependency 'MBProgressHUD', '~> 1.0.0'
  
   # 8
   s.source_files = "MenuSlider/**/*.{swift}"
