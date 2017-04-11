@@ -16,28 +16,18 @@ Pod::Spec.new do |s|
   # 4 - Replace with your name and e-mail address
   s.author = { "Daniel Rodrigues da Silveira" => "silver.daniel97@gmail.com" }
 
+ # 5 - Replace this URL with your own Github page's URL (from the address bar)
   # For example,
-  # s.homepage = "https://github.com/JRG-Developer/RWPickFlavor"
+  # s.homepage"
   s.homepage = "https://github.com/thiagovictorino/MenuSlider"
- 
-  # 6 - Replace this URL with your own Git URL from "Quick Setup"
-  s.source = { :git => "[Your RWPickFlavor Git URL Goes Here]", :tag => "#{s.version}"}
- 
-  # For example,
-  # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
- d.homepage = "[Your RWPickFlavor Homepage URL Goes Here]"
- 
-  # For example,
-  # s.homepage = "https://github.com/JRG-Developer/RWPickFlavor"
- 
  
   # 6 - Replace this URL with your own Git URL from "Quick Setup"
   s.source = { :git => "https://github.com/thiagovictorino/MenuSlider.git", :tag => "#{s.version}"}
  
+
   # For example,
   # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
- 
- 
+  
   # 7
   s.framework = "UIKit"
   s.dependency 'Alamofire', '~> 2.0'
