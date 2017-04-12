@@ -61,5 +61,5 @@ footer: menufooter)
 
 }
 ```
-This example above will generate you this: 
+This example above will generate you this:  
 ![alt tag](https://github.com/thiagovictorino/MenuSlider/blob/master/example_pic.png?raw=true)
