@@ -38,7 +38,7 @@ public class SideMenuHeaderFactory {
 		}
 
 		public override func getView() -> UIView {
-			let sideMenuHeaderView: SideMenuHeaderViewController = SideMenuHeaderViewController()
+			let sideMenuHeaderView: SideMenuHeaderViewController = SideMenuHeaderViewController(nibName: "SideMenuHeaderViewController", bundle: nil)
 			sideMenuHeaderView.loadView()
 			sideMenuHeaderView.setLabel(text: title)
 			return sideMenuHeaderView.view

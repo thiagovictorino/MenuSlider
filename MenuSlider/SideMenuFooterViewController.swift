@@ -13,10 +13,6 @@ public class SideMenuFooterViewController: UIViewController {
 	@IBOutlet public var footerView: UIView!
 	@IBOutlet public weak var label: UILabel!
 	
-	required public init?(coder aDecoder: NSCoder) {
-		fatalError("init(coder:) has not been implemented")
-	}
-
 	public func setLabel(text: String) {
 		self.label.text = text
 	}

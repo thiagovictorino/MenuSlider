@@ -126,7 +126,7 @@
 				CEF33A5F1E9D5DC800B26DE7 /* Delegate */,
 				CEF33A5E1E9D5DA900B26DE7 /* Protocol */,
 				CEF33A5D1E9D5D9D00B26DE7 /* Controller */,
-				CEF33A5C1E9D5D9A00B26DE7 /* View */,
+				CEF33A5C1E9D5D9A00B26DE7 /* Resources */,
 				CEF33A5B1E9D5D9200B26DE7 /* Factory */,
 				CEF33A591E9D5D8E00B26DE7 /* SideMenu.swift */,
 				CE6EEB7E1E9D5CDF0045553C /* MenuSlider.h */,
@@ -154,7 +154,7 @@
 			name = Factory;
 			sourceTree = "<group>";
 		};
-		CEF33A5C1E9D5D9A00B26DE7 /* View */ = {
+		CEF33A5C1E9D5D9A00B26DE7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				CEF33A411E9D5D7600B26DE7 /* SideMenuFooterViewController.xib */,
@@ -162,7 +162,7 @@
 				CEF33A431E9D5D7600B26DE7 /* SideMenuItemViewController.xib */,
 				CEF33A441E9D5D7600B26DE7 /* SideMenuViewController.xib */,
 			);
-			name = View;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CEF33A5D1E9D5D9D00B26DE7 /* Controller */ = {
