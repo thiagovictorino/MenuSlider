@@ -5,7 +5,9 @@
 
 import UIKit
 
-public protocol SideMenuDelegate: class {
-	func onMenuOpen()
-	func onMenuClose()
+@objc public protocol SideMenuDelegate: class {
+	var menu : SideMenuViewController! {get set}
+	
+	@objc optional func onMenuOpen()
+	@objc optional func onMenuClose()
 }

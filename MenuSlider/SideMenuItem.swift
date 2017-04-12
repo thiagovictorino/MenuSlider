@@ -56,7 +56,9 @@ public class SideMenuItemFactory {
 		}
 
 		public override func getView() -> UIView {
-			let view = SideMenuItemViewController()
+			let bundleController: Bundle = Bundle(for: SideMenuItemViewController.self)
+			bundleController.loadNibNamed("SideMenuItemViewController", owner: SideMenuItemViewController(), options: nil)
+			let view: SideMenuItemViewController = SideMenuItemViewController(nibName: "SideMenuItemViewController", bundle: bundleController)
 			view.loadView()
 			view.setLabel(text: self.title)
 			return view.view

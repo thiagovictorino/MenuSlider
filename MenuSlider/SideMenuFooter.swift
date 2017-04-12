@@ -38,7 +38,9 @@ public class SideMenuFooterFactory {
 		}
 
 		public override func getView() -> UIView {
-			let sideMenuFooterView: SideMenuFooterViewController = SideMenuFooterViewController()
+			let bundleController: Bundle = Bundle(for: SideMenuFooterViewController.self)
+			bundleController.loadNibNamed("SideMenuFooterViewController", owner: SideMenuFooterViewController(), options: nil)
+			let sideMenuFooterView: SideMenuFooterViewController = SideMenuFooterViewController(nibName: "SideMenuFooterViewController", bundle: bundleController)
 			sideMenuFooterView.loadView()
 			sideMenuFooterView.setLabel(text: title)
 			return sideMenuFooterView.view
