@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B668DB9B5A56C613ADB57D2 /* Pods_MenuSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52B70EDA4E54CDAD88C55CD /* Pods_MenuSlider.framework */; };
 		CE6EEB851E9D5CDF0045553C /* MenuSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6EEB7B1E9D5CDF0045553C /* MenuSlider.framework */; };
 		CE6EEB8A1E9D5CDF0045553C /* MenuSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EEB891E9D5CDF0045553C /* MenuSliderTests.swift */; };
 		CE6EEB8C1E9D5CDF0045553C /* MenuSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6EEB7E1E9D5CDF0045553C /* MenuSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,8 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1847E97C9B11F786EA773EBE /* Pods-MenuSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuSlider.release.xcconfig"; path = "Pods/Target Support Files/Pods-MenuSlider/Pods-MenuSlider.release.xcconfig"; sourceTree = "<group>"; };
-		C1B1C309526553459A5A4785 /* Pods-MenuSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuSlider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MenuSlider/Pods-MenuSlider.debug.xcconfig"; sourceTree = "<group>"; };
 		CE6EEB7B1E9D5CDF0045553C /* MenuSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MenuSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6EEB7E1E9D5CDF0045553C /* MenuSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuSlider.h; sourceTree = "<group>"; };
 		CE6EEB7F1E9D5CDF0045553C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,7 +57,6 @@
 		CEF33A541E9D5D8A00B26DE7 /* SideMenuHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuHeader.swift; sourceTree = "<group>"; };
 		CEF33A551E9D5D8A00B26DE7 /* SideMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuItem.swift; sourceTree = "<group>"; };
 		CEF33A591E9D5D8E00B26DE7 /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
-		F52B70EDA4E54CDAD88C55CD /* Pods_MenuSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MenuSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B668DB9B5A56C613ADB57D2 /* Pods_MenuSlider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,31 +78,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C0D5E6B0909C777227804036 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F52B70EDA4E54CDAD88C55CD /* Pods_MenuSlider.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CD1D2C88218CBD6522A5B3D2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C1B1C309526553459A5A4785 /* Pods-MenuSlider.debug.xcconfig */,
-				1847E97C9B11F786EA773EBE /* Pods-MenuSlider.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		CE6EEB711E9D5CDF0045553C = {
 			isa = PBXGroup;
 			children = (
 				CE6EEB7D1E9D5CDF0045553C /* MenuSlider */,
 				CE6EEB881E9D5CDF0045553C /* MenuSliderTests */,
 				CE6EEB7C1E9D5CDF0045553C /* Products */,
-				CD1D2C88218CBD6522A5B3D2 /* Pods */,
-				C0D5E6B0909C777227804036 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -210,12 +186,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE6EEB8F1E9D5CDF0045553C /* Build configuration list for PBXNativeTarget "MenuSlider" */;
 			buildPhases = (
-				DE952BABCC5D51E3B6FC469C /* [CP] Check Pods Manifest.lock */,
 				CE6EEB761E9D5CDF0045553C /* Sources */,
 				CE6EEB771E9D5CDF0045553C /* Frameworks */,
 				CE6EEB781E9D5CDF0045553C /* Headers */,
 				CE6EEB791E9D5CDF0045553C /* Resources */,
-				BD79D38D80A76AE0E1A0EC1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,39 +279,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		BD79D38D80A76AE0E1A0EC1E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MenuSlider/Pods-MenuSlider-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DE952BABCC5D51E3B6FC469C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE6EEB761E9D5CDF0045553C /* Sources */ = {
@@ -479,7 +420,6 @@
 		};
 		CE6EEB901E9D5CDF0045553C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1B1C309526553459A5A4785 /* Pods-MenuSlider.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -501,7 +441,6 @@
 		};
 		CE6EEB911E9D5CDF0045553C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1847E97C9B11F786EA773EBE /* Pods-MenuSlider.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
