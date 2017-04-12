@@ -37,7 +37,12 @@ public class SideMenu {
 	}
 
 	public func build() -> SideMenuViewController! {
-		self.menuViewController = SideMenuViewController()
+		
+		let bundleController: Bundle = Bundle(for: SideMenuViewController.self)
+		bundleController.loadNibNamed("SideMenuViewController", owner: SideMenuViewController(), options: nil)
+		self.menuViewController = SideMenuViewController(nibName: "SideMenuViewController", bundle: bundleController)
+		self.menuViewController?.loadView()
+
 		self.menuViewController?.setItems(items: menuItems)
 
 		if (self.headerView) != nil {
@@ -48,7 +53,7 @@ public class SideMenu {
 			self.menuViewController?.setFooter(view: self.footerView!)
 		}
 
-
+		self.menuViewController?.viewDidLoad()
 
 		return self.menuViewController
 	}

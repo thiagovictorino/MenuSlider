@@ -9,14 +9,14 @@
 import UIKit
 
 public class SideMenuViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
-    init() {
-        super.init(nibName: nil, bundle: nil)
-    }
-
-    required public init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+	
+	public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+		super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+	}
+	
+	required public init?(coder aDecoder: NSCoder) {
+		fatalError("init(coder:) has not been implemented")
+	}
 
 	public weak var delegate: SideMenuDelegate! {
 		didSet {
@@ -49,7 +49,7 @@ public class SideMenuViewController: UIViewController, UITableViewDelegate, UITa
 	public func expand(onController controller: UIViewController) {
 		controller.present(self, animated: false, completion: {
 			self.expandMenu()
-			self.delegate.onMenuOpen()
+			self.delegate.onMenuOpen?()
 		})
 	}
 
@@ -141,7 +141,6 @@ public class SideMenuViewController: UIViewController, UITableViewDelegate, UITa
         let view = item.getView()
         view.frame = cell.frame
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-
         cell.addSubview(view)
 
         return cell
@@ -185,7 +184,7 @@ public class SideMenuViewController: UIViewController, UITableViewDelegate, UITa
         }, completion: { (finished: Bool) in
             if targetPosition == -(self.menu.frame.width) - 2 {
 				self.dismiss(animated: false, completion: {
-					self.delegate.onMenuClose()
+					self.delegate.onMenuClose?()
 				})
             }
         })
