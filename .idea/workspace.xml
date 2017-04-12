@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d79bc807-79a0-42b6-abdf-aa048b48fb94" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MenuSlider.xcworkspace/xcuserdata/user.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/MenuSlider.xcworkspace/xcuserdata/user.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/xcode.xml" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MenuSlider.xcodeproj/xcuserdata/user.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/MenuSlider.xcodeproj/xcuserdata/user.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MenuSlider/Example/.idea/workspace.xml" afterPath="$PROJECT_DIR$/MenuSlider/Example/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MenuSlider/SideMenu.swift" afterPath="$PROJECT_DIR$/MenuSlider/SideMenu.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MenuSlider/SideMenuDelegate.swift" afterPath="$PROJECT_DIR$/MenuSlider/SideMenuDelegate.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MenuSlider/SideMenuFooter.swift" afterPath="$PROJECT_DIR$/MenuSlider/SideMenuFooter.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MenuSlider/SideMenuFooterViewController.swift" afterPath="$PROJECT_DIR$/MenuSlider/SideMenuFooterViewController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MenuSlider/SideMenuHeader.swift" afterPath="$PROJECT_DIR$/MenuSlider/SideMenuHeader.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MenuSlider/SideMenuItem.swift" afterPath="$PROJECT_DIR$/MenuSlider/SideMenuItem.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MenuSlider/SideMenuItemViewController.swift" afterPath="$PROJECT_DIR$/MenuSlider/SideMenuItemViewController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MenuSlider/SideMenuViewController.swift" afterPath="$PROJECT_DIR$/MenuSlider/SideMenuViewController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/user.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/user.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MenuSlider.podspec" afterPath="$PROJECT_DIR$/MenuSlider.podspec" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -324,12 +311,12 @@
       <workItem from="1491823252261" duration="2017000" />
       <workItem from="1491910177855" duration="605000" />
       <workItem from="1492002371122" duration="16000" />
-      <workItem from="1492002388478" duration="532000" />
+      <workItem from="1492002388478" duration="612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36895000" />
+    <option name="totallyTimeSpent" value="36975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="23" width="1920" height="1009" extended-state="0" />
