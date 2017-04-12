@@ -49,7 +49,6 @@ public class SideMenuHeaderFactory {
 	private class SideMenuHeaderView: SideMenuHeader {
 
 		var headerView: UIView
-
 		init(view: UIView) {
 			self.headerView = view
 		}
