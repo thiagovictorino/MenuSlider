@@ -61,3 +61,5 @@ footer: menufooter)
 
 }
 ```
+This example above will generate you this: 
+![alt tag](http://imgur.com/Xep3Pwr)
