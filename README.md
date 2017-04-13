@@ -1,5 +1,18 @@
 # MenuSlider
 
+The MenuSlider is a simple CocoaPod project made to easily implement a slider menu
+
+# Installing
+
+In your Podfile insert this line on Pod list
+
+```ruby
+pod 'MenuSlider', '~> 0.1.5'
+```
+
+
+# Example implementing the MenuSlider
+
 ```swift
 import UIKit
 import MenuSlider
@@ -61,5 +74,5 @@ footer: menufooter)
 
 }
 ```
-This example above will generate you this:  
-![alt tag](https://github.com/thiagovictorino/MenuSlider/blob/master/example_pic.png?raw=true)
+This example above will generate you this:
+<div style="text-align:center"><img src ="https://github.com/thiagovictorino/MenuSlider/blob/master/example_pic.png?raw=true" /></div>
