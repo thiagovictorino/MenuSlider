@@ -11,7 +11,7 @@ pod 'MenuSlider', '~> 0.1.5'
 ```
 And run <b> pod install </b>
 
-# Example implementing the MenuSlider
+# Implement example for MenuSlider
 
 ```swift
 import UIKit
