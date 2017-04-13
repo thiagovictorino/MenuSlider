@@ -9,7 +9,7 @@ In your Podfile insert this line on Pod list
 ```ruby
 pod 'MenuSlider', '~> 0.1.5'
 ```
-
+And run <b> pod install </b>
 
 # Example implementing the MenuSlider
 
@@ -77,4 +77,6 @@ footer: menufooter)
 }
 ```
 This example above will generate you this:
-<div style="text-align:center"><img src ="https://github.com/thiagovictorino/MenuSlider/blob/master/example_pic.png?raw=true" /></div>
+<p align="center">
+  <img src ="https://github.com/thiagovictorino/MenuSlider/blob/master/example_pic.png?raw=true" style="width:100px;">
+</p>
