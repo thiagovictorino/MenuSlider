@@ -53,8 +53,10 @@ class ViewController: UIViewController, SideMenuDelegate {
 
 		let footerLabel = UILabel()
 		footerLabel.text = "Footer"
-		
+		footerLabel.textAlignment = NSTextAlignment.center
+		footerLabel.autoresizingMask = [.flexibleHeight, .flexibleWidth]
 		let footerView: UIView = UIView()
+		footerLabel.frame = footerView.frame
 		footerView.addSubview(footerLabel)
 		footerView.backgroundColor = UIColor.gray
 		
